@@ -2,7 +2,7 @@
 
 {% block body %}
 
-    <form method="POST" action='{% url "counter" %}'>
+    <form method="POST" action='{% url "main:counter" %}'>
         {% csrf_token %}
         <textarea name="text" rows="20" cols="65" placeholder="Enter text" ></textarea>
         <br>
