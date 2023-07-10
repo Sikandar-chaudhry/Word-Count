@@ -1,0 +1,12 @@
+{% extends "main/layout.html" %}
+
+{% block body %}
+
+    <form method="POST" action='{% url "counter" %}'>
+        {% csrf_token %}
+        <textarea name="text" rows="20" cols="65" placeholder="Enter text" ></textarea>
+        <br>
+        <input type="submit" name="Submit">
+    </form>
+
+{% endblock %}
