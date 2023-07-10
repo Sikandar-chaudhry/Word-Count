@@ -2,7 +2,7 @@
 body{
     padding: 10px;
 }
-input , textarea,h1{
+input , textarea,h1, button{
     font-family: 'Poppins', sans-serif;
     font-size: medium;
 }
